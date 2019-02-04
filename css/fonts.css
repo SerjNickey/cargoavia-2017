@@ -1,0 +1,89 @@
+	@font-face {
+			font-family: "HelveticaNeueCyrBold";
+			src: url("../fonts/HelveticaNeueCyrBold/HelveticaNeueCyr-Bold.eot");
+			src: url("../fonts/HelveticaNeueCyrBold/HelveticaNeueCyr-Bold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/HelveticaNeueCyrBold/HelveticaNeueCyr-Bold.woff") format("woff"),
+			url("../fonts/HelveticaNeueCyrBold/HelveticaNeueCyr-Bold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	} /* font-family: "HelveticaNeueCyrBold"; */
+
+	@font-face {
+			font-family: "HelveticaNeueCyrHeavy";
+			src: url("../fonts/HelveticaNeueCyrHeavy/HelveticaNeueCyr-Heavy.eot");
+			src: url("../fonts/HelveticaNeueCyrHeavy/HelveticaNeueCyr-Heavy.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/HelveticaNeueCyrHeavy/HelveticaNeueCyr-Heavy.woff") format("woff"),
+			url("../fonts/HelveticaNeueCyrHeavy/HelveticaNeueCyr-Heavy.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	} /* font-family: "HelveticaNeueCyrHeavy"; */
+
+	@font-face {
+			font-family: "HelveticaNeueCyrLight";
+			src: url("../fonts/HelveticaNeueCyrLight/HelveticaNeueCyr-Light.eot");
+			src: url("../fonts/HelveticaNeueCyrLight/HelveticaNeueCyr-Light.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/HelveticaNeueCyrLight/HelveticaNeueCyr-Light.woff") format("woff"),
+			url("../fonts/HelveticaNeueCyrLight/HelveticaNeueCyr-Light.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	} /* font-family: "HelveticaNeueCyrLight"; */
+
+	@font-face {
+			font-family: "HelveticaNeueCyrMedium";
+			src: url("../fonts/HelveticaNeueCyrMedium/HelveticaNeueCyr-Medium.eot");
+			src: url("../fonts/HelveticaNeueCyrMedium/HelveticaNeueCyr-Medium.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/HelveticaNeueCyrMedium/HelveticaNeueCyr-Medium.woff") format("woff"),
+			url("../fonts/HelveticaNeueCyrMedium/HelveticaNeueCyr-Medium.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	} /* font-family: "HelveticaNeueCyrMedium"; */
+
+	@font-face {
+			font-family: "HelveticaNeueCyrRoman";
+			src: url("../fonts/HelveticaNeueCyrRoman/HelveticaNeueCyr-Roman.eot");
+			src: url("../fonts/HelveticaNeueCyrRoman/HelveticaNeueCyr-Roman.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/HelveticaNeueCyrRoman/HelveticaNeueCyr-Roman.woff") format("woff"),
+			url("../fonts/HelveticaNeueCyrRoman/HelveticaNeueCyr-Roman.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	} /* font-family: "HelveticaNeueCyrRoman"; */
+
+	@font-face {
+			font-family: "HelveticaNeueCyrThin";
+			src: url("../fonts/HelveticaNeueCyrThin/HelveticaNeueCyr-Thin.eot");
+			src: url("../fonts/HelveticaNeueCyrThin/HelveticaNeueCyr-Thin.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/HelveticaNeueCyrThin/HelveticaNeueCyr-Thin.woff") format("woff"),
+			url("../fonts/HelveticaNeueCyrThin/HelveticaNeueCyr-Thin.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	} /* font-family: "HelveticaNeueCyrThin"; */
+
+	@font-face {
+			font-family: "HelveticaNeueCyrUltraLight";
+			src: url("../fonts/HelveticaNeueCyrUltraLight/HelveticaNeueCyr-UltraLight.eot");
+			src: url("../fonts/HelveticaNeueCyrUltraLight/HelveticaNeueCyr-UltraLight.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/HelveticaNeueCyrUltraLight/HelveticaNeueCyr-UltraLight.woff") format("woff"),
+			url("../fonts/HelveticaNeueCyrUltraLight/HelveticaNeueCyr-UltraLight.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	} /* font-family: "HelveticaNeueCyrUltraLight"; */
+
+	@font-face {
+			font-family: "GothamProBold";
+			src: url("../fonts/GothamProBold/GothamPro-Bold.eot");
+			src: url("../fonts/GothamProBold/GothamPro-Bold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/GothamProBold/GothamPro-Bold.woff") format("woff"),
+			url("../fonts/GothamProBold/GothamPro-Bold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	} /* font-family: "GothamProBold"; */
+
+	@font-face {
+			font-family: "ProximaNovaRegular";
+			src: url("../fonts/ProximaNova/ProximaNova-Regular.eot");
+			src: url("../fonts/ProximaNova/ProximaNova-Regular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/ProximaNova/ProximaNova-Regular.woff") format("woff"),
+			url("../fonts/ProximaNova/ProximaNova-Regular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	} /* font-family: "ProximaNovaRegular"; */

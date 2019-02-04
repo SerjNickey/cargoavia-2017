@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cargo</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
+  </head>
+  <body>
+    <header class="container-fluid">
+      <div class="row">
+
+        <div class="col-auto">
+          <a href="home.html" class="d-block header_logo"><img src="img/header/logo.png" alt="Cargo" /></a>
+        </div>
+
+        <div class="col-auto">
+          <p class="d-block">Перевозки по России</p>
+
+          <a class="d-inline" href="tel:+7(495)642-08-69">+7 (495) 642-08-69</a>
+        </div>
+
+        <div class="col-auto">
+          <p class="d-block">Международные перевозки</p>
+
+          <a href="tel:+7(495)967-88-23" class="d-inline">+7 (495) 967-88-23</a>
+        </div>
+
+        <div class="col-auto">
+          <i class="fa fa-envelope-o d-block" aria-hidden="true"><a class="d-inline" href="mailto:info@cargoavia.ru">info@cargoavia.ru</a></i>
+        </div>
+
+        <div class="col-auto">
+          <button class="btn text-uppercase header_red" type="button" data-toggle="modal" data-target="#callback_form">Обратная связь</button>
+        </div>
+      </div><!--row-->
+    </header>
+
+
+    <div class="menu container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand float-left" href="#">Меню</a>
+
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto ml-auto">
+
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">Главная</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Услуги</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="news.html">Новости</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">О компании</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Тарифы</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" href="order.html">Заказ</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Наши проекты</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Контакты</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link last" href="#">Статьи</a>
+              </li>
+
+            </ul>
+          </div><!--collapse navbar-collapse-->
+        </nav>
+      </div><!--row-->
+    </div><!--container-fluid-->
+
+
+
+
+    <div class="container-fluid services_zero">
+
+        <div class="row services">
+
+          <div class="col-xl-9 col-lg-8 col-md-7 col-sm-12 order">
+            <h1>заявка на отправку груза</h1>
+
+
+            <form class="order_form">
+                <p class="order_form_h3">Заполните поля для оформления заказа на перевозку</p>
+
+                <div class="form-group">
+                  <label for="dest1">Направление:</label>
+                  <select class="form-control " id="dest1">
+                    <option>Авиа</option>
+                    <option>Авиа</option>
+                    <option>Авиа</option>
+                    <option>Авиа</option>
+                  </select>
+                </div><!--form-group-->
+
+
+                <div class="form-group order_date">
+                  <label for="datepicker">Дата отправления:</label>
+                  <input type="text" id="datepicker" required />
+                </div>
+
+
+                <div class="form-group">
+                  <label>Дата отправления:</label>
+                  <small class="float-right">Не более 30 символов</small>
+                  <input type="text" class="form-control" required />
+                </div><!--form-group-->
+
+                <div class="form-group">
+                  <label>Характер груза:</label>
+                  <input type="text" class="form-control" required />
+                </div><!--form-group-->
+
+
+                <div class="form-group">
+                  <label class="order_block">Характер груза:</label>
+                  <input type="text" class="order_inline form-control" placeholder="Длина" />
+                  <input type="text" class="order_inline form-control" placeholder="Высота" />
+                  <input type="text" class="order_inline form-control" placeholder="Ширина" />
+                </div><!--form-group-->
+
+
+                <div class="control-group order_radio_b">
+
+                  <div><p class="o_r_p_first">Есть ли тяжеловесный груз?</p><i class="fa fa-info-circle" aria-hidden="true"><i>Вес одного мешка/коробки/ящика
+                  более 80 кг?</i></i></div>
+
+                  <label class="control control-radio">
+                      Да
+                          <input type="radio" name="radio" checked="checked" />
+                      <span class="control_indicator"></span>
+                  </label>
+
+                  <label class="control control-radio">
+                      Нет
+                          <input type="radio" name="radio" />
+                      <span class="control_indicator"></span>
+                  </label>
+                </div><!--control-group-->
+
+
+                <div class="control-group order_radio_b">
+
+                  <p class="o_r_p_first">Требуется ли забор груза у грузоотправителя?</p>
+
+                  <label class="control control-radio">
+                      Да
+                          <input type="radio" name="radio2" checked="checked" />
+                      <span class="control_indicator"></span>
+                  </label>
+
+                  <label class="control control-radio">
+                      Нет
+                          <input type="radio" name="radio2" />
+                      <span class="control_indicator"></span>
+                  </label>
+                </div><!--control-group-->
+
+
+                <div class="form-group">
+                  <label>Адрес доставки:</label>
+                  <input type="text" class="form-control" required />
+                </div><!--form-group-->
+
+                <div class="form-group">
+                  <label>Дата и время когда необходимо сделать доставку:</label>
+                  <input type="text" class="form-control" required />
+                </div><!--form-group-->
+
+                <div class="form-group">
+                  <label>Контактное лицо и телефон при получении:</label>
+                  <input type="text" class="form-control" required />
+                </div><!--form-group-->
+
+
+                <input type="submit" value="Отправить заявку" class="order_send" />
+            </form>
+
+          </div>
+
+
+          <div class="col-xl-3 col-lg-4 col-md-5 col-sm-12 ">
+            <div class="offers row">
+
+              <div>
+                <p class="offers_title">Спецпредложения</p>
+              </div>
+
+              <div class="offers_block">
+                <p class="o_city">Москва – Грозный</p>
+                <p class="o_price"><span class="o_red">51</span> руб/кг</p>
+                <a href="#" class="o_more">Подробнее</a>
+              </div><!--offers_block-->
+
+              <div class="offers_block">
+                <p class="o_city">Москва – Иваново</p>
+                <p class="o_price"><span class="o_red">51</span> руб/кг</p>
+                <a href="#" class="o_more">Подробнее</a>
+              </div><!--offers_block-->
+
+              <div class="offers_block">
+                <p class="o_city">Москва – Махачкала</p>
+                <p class="o_price"><span class="o_red">51</span> руб/кг</p>
+                <a href="#" class="o_more">Подробнее</a>
+              </div><!--offers_block-->
+
+              <div class="offers_block">
+                <p class="o_city">Москва – Минеральные Воды</p>
+                <p class="o_price"><span class="o_red">51</span> руб/кг</p>
+                <a href="#" class="o_more">Подробнее</a>
+              </div><!--offers_block-->
+
+              <div class="offers_block">
+                <p class="o_city">Москва – Ростов-на-Дону</p>
+                <p class="o_price"><span class="o_red">51</span> руб/кг</p>
+                <a href="#" class="o_more">Подробнее</a>
+              </div><!--offers_block-->
+
+              <div class="offers_block">
+                <p class="o_city">Москва – Саратов</p>
+                <p class="o_price"><span class="o_red">51</span> руб/кг</p>
+                <a href="#" class="o_more">Подробнее</a>
+              </div><!--offers_block-->
+
+              <div class="offers_block">
+                <p class="o_city">Москва – Симферополь</p>
+                <p class="o_price"><span class="o_red">51</span> руб/кг</p>
+                <a href="#" class="o_more">Подробнее</a>
+              </div><!--offers_block-->
+
+              <div class="offers_block">
+                <p class="o_city">Москва – Сочи</p>
+                <p class="o_price"><span class="o_red">51</span> руб/кг</p>
+                <a href="#" class="o_more">Подробнее</a>
+              </div><!--offers_block-->
+
+              <div class="offers_block">
+                <p class="o_city">Москва – Ульяновск</p>
+                <p class="o_price"><span class="o_red">51</span> руб/кг</p>
+                <a href="#" class="o_more">Подробнее</a>
+              </div><!--offers_block-->
+            </div><!--offers-->
+
+            <div class="calculator">
+
+              <div class="calculator_title">
+                <img src="img/calculator/calendar.png" alt="#" />
+                <p>калькулятор</p>
+              </div><!--calculator_title-->
+
+              <div class="calculator_form form-group">
+
+                <label for="sel1">Направление:</label>
+                <select class="form-control " id="sel1">
+                  <option>Архангельск</option>
+                  <option>Архангельск</option>
+                  <option>Архангельск</option>
+                  <option>Архангельск</option>
+                </select>
+
+
+                <label for="pwd">Вес,кг:</label>
+                <input type="text" class="form-control" id="pwd" placeholder="Ввведите массу" />
+
+                <label for="pwd2">Объем,м<sup>3</sup>:</label>
+                <input type="text" class="form-control" id="pwd2" placeholder="Ввведите объем" />
+
+                <button>Рассчитать стоимость</button>
+              </div><!--form-group-->
+
+              <div class="calculator_cost">
+
+                <p class="calculator_company">Авиакомпания 5Н <span class="c_def">-</span><span class="calculator_price">32 463,413</span><i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                <p class="calculator_company">Авиакомпания СУ <span class="c_def">-</span><span class="calculator_price">342 512</span><i class="fa fa-rub" aria-hidden="true"></i></p>
+
+                <p class="calculator_text">Итоговая сумма является ориентировочной и применима для категории «генеральный груз». Окончательную стоимость перевозки уточняйте у сотрудников компании.</p>
+
+              </div><!--calculator_cost-->
+            </div><!--calculator-->
+
+            <div class="offers_news">
+              <p class="offers_news_title">Последние новости</p>
+
+              <div class="offers_news_block">
+                <p class="offers_news_block_date">23.05.2017</p>
+                <a href="#" class="offers_news_block_text">Грузовые авиаперевозки в Катар от 2,30 usd/kg</a>
+              </div><!--offers_news_block-->
+
+              <div class="offers_news_block">
+                <p class="offers_news_block_date">23.05.2017</p>
+                <a href="#" class="offers_news_block_text">Emirates начинает выполнять рейсы ежедневно Москва-Дубай-Загреб</a>
+              </div><!--offers_news_block-->
+
+              <div class="offers_news_block">
+                <p class="offers_news_block_date">23.05.2017</p>
+                <a href="#" class="offers_news_block_text">Авиакомпания «РусЛайн» нарастила перевозку пассажиров.</a>
+              </div><!--offers_news_block-->
+
+            </div><!--offers_news-->
+          </div>
+
+        </div><!--row-->
+    </div><!--container-fluid-->
+
+
+    <div class="container-fluid question_zero">
+
+
+        <div class="row question">
+          <div class="col-xl-8 col-lg-8 col-md-7 col-sm-12 red">
+            <p class="question_h1">Задайте вопрос специалисту</p>
+            <p class="question_h2">Менеджеры компании с радостью ответят на ваши вопросы и произведут расчет стоимости услуг и подготовят индивидуальное предложение.</p>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 yellow">
+            <button class="btn text-uppercase float-right" data-toggle="modal" data-target="#question_form">Задать вопрос</button>
+          </div>
+        </div><!--row-->
+    </div><!--container-fluid-->
+
+
+    <div class="modal fade" id="question_form" tabindex="-1" role="dialog" aria-labelledby="question_form" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content text-center">
+
+            <strong class="text-uppercase">Задать вопрос</strong>
+
+            <p>Задавайте нам вопросы, мы с удовольствием Вам ответим</p>
+
+            <form>
+              <input type="text" placeholder="Введите свое имя" required />
+              <br>
+              <input type="email" placeholder="E-mail" required="required" />
+              <br>
+              <input type="tel" name="phone" placeholder="+375 (29) ___-__-__" required />
+              <br>
+              <textarea placeholder="Введите сообщение" required="required"></textarea>
+              <br>
+              <input type="submit" value="Отправить заявку" />
+            </form>
+
+            <i>Отправляя заявку Вы даете согласие на обработку<br> персональных данных</i>
+        </div><!--modal-content-->
+      </div>
+    </div>
+
+    <div class="modal fade" id="callback_form" tabindex="-1" role="dialog" aria-labelledby="callback_form" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content text-center">
+            <strong class="text-uppercase">Обратная связь</strong>
+
+            <p>Отправляйте заявку и мы обязательно с Вами свяжемся</p>
+
+            <form>
+              <input type="text" placeholder="Введите свое имя" required />
+              <br>
+              <input type="tel" name="phone" placeholder="+375 (29) ___-__-__" required />
+              <br>
+              <textarea placeholder="Введите сообщение" required="required"></textarea>
+              <br>
+              <input type="submit" value="Свяжитесь со мной" />
+            </form>
+
+            <i>Отправляя заявку Вы даете согласие на обработку<br> персональных данных</i>
+        </div><!--modal-content-->
+      </div>
+    </div>
+
+
+    <div class="container-fluid infotab_zero">
+
+        <div class="row infotab">
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+            <p>Наши услуги:</p><br>
+            <a href="#">Авиадоставка грузов из Китая</a><br>
+            <a href="#">Авиаперевозка документов</a><br>
+            <a href="#">Авиаперевозка медикаментов (фармацевтической продукции)</a><br>
+            <a href="#">Авиаперевозка опасных грузов</a><br>
+            <a href="#">Авиаперевозка продуктов питания</a><br>
+            <a href="#">Авиаперевозки грузов по России и СНГ</a>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <p>Тарифы:</p><br>
+            <a href="#">Авиаперевозки грузов по России и СНГ</a><br>
+            <a href="#">Международные авиаперевозки грузов</a><br>
+            <a href="#">Авиаперевозку животных из Москвы по России и СНГ</a>
+          </div>
+
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+            <p>Информация:</p><br>
+            <a href="#">Новости</a><br>
+            <a href="#">О компании</a><br>
+            <a href="#">Заказ</a><br>
+            <a href="#">Наши проекты</a><br>
+            <a href="#">Контакты</a><br>
+            <a href="#">Статьи</a>
+          </div>
+        </div><!--row-->
+    </div><!--container-fluid-->
+
+
+    <footer class="container-fluid footer_zero">
+
+
+        <div class="row footer">
+
+          <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12">
+            <div class="footer_b_1_form">
+              <p class="footer_h1">Поиск по сайту</p>
+              <form class="input-group">
+                <input type="search" class="form-control border" placeholder="Введите данные для поиска" aria-label="Введите данные для поиска" required="required" />
+                <span class="input-group-btn">
+                  <button class="btn" type="submit">ОК</button>
+                </span>
+              </form><!--input-group-->
+            </div><!--footer_b_1_form-->
+
+            <p class="footer_h2">©  2017 Домодедово Карго Сервис Групп.<br> Все права защищены.</p>
+          </div>
+
+          <div class="col-xl-7 col-lg-7 col-md-6 col-sm-12">
+
+            <div class="footer_refs">
+              <div class="f_refs_sub">
+                <button class="btn text-uppercase footer_red" type="button" data-toggle="modal" data-target="#callback_form">Обратная связь</button>
+                <a href="tel:+7(495)642-08-69">+7 (495) 642-08-69</a>
+                <a href="tel:+7(495)967-88-23">+7 (495) 967-88-23 </a>
+                <a href="mailto:info@cargoavia.ru">info@cargoavia.ru</a>
+              </div><!--f_refs_sub-->
+
+              <p class="footer_h3">142015, Московская область, Домодедовский район, территория аэропорт<br> "Домодедово" строение 8, 3-й этаж, офис 334 (<a href="#">Посмотреть на карте</a>)</p>
+
+              <div class="footer_refs_fa">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </div><!--footer_refs_fa-->
+            </div>
+
+          </div>
+
+        </div><!--row-->
+    </footer><!--container-fluid-->
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/datepicker-ru.js"></script>
+
+    <script src="js/poper.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/masked_input_1.4-min.js"></script>
+
+    <script>
+        $(function () {
+            $('#datepicker').datepicker($.extend({
+            showOn: "button",
+            showOtherMonths: true,
+            selectOtherMonths: true,
+            dateFormat: "DD"
+          },
+
+              $.datepicker.regional['ru']
+           ));
+        });
+  </script>
+
+  </body>
+</html>
